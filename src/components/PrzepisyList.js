@@ -53,6 +53,7 @@ class PrzepisyList extends Component {
                 </td>
             </tr>
         });
+        
 
         return (
             <div>

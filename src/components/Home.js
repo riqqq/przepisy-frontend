@@ -1,16 +1,30 @@
 import React, { Component } from 'react';
 import '../App.css'
 import AppNavbar from './AppNavbar';
-import { Link } from 'react-router-dom';
-import { Button, Container } from 'reactstrap';
+import {Container} from 'reactstrap';
+
+
 
 class Home extends Component {
   render() {
+    
     return (
       <div>
         <AppNavbar/>
-        <Container fluid>
-          <Button color="link"><Link to="/przepisy">Manage Przepisy List</Link></Button>
+        <Container>
+        <div>
+        <h1 style={{padding: "10px", fontFamily: "Arial", fontSize: "50px", textAlign: "center"}}>
+          Witaj!</h1>
+        <h1 style={{padding: "0px", fontFamily: "Arial", fontSize: "30px" }}>
+          Wpisz swoje produkty a poniższa lista pokaże Ci jakie pyszności możesz przyrządzić. Smacznego!</h1>
+        </div>
+        </Container>
+        
+        <Container>
+          <div
+           className="App"><input type="text" placeholder="Wpisz posiadane produkty"/>
+          </div>
+          
         </Container>
       </div>
     );

@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .App-logo {
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App input{
+  margin-top: 20px;
+  width:600px;
+  height:45px;
+  font-size: 25px;
+  padding-left:10px;
+}
+#grad {
+  background-image: linear-gradient(red, yellow);
 }

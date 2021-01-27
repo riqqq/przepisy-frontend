@@ -5,8 +5,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import PrzepisyList from './components/PrzepisyList';
 import PrzepisEdit from './components/PrzepisEdit';
 
+
 class App extends Component {
+  
   render() {
+    
     return (
       <Router>
         <Switch>

@@ -43,7 +43,7 @@ class PrzepisyList extends Component {
                 <td style={{whiteSpace: 'nowrap'}}>{przepis.nazwa}</td>
                 <td>{przepis.opis}</td>
                 <td>{przepis.trudnosc}</td>
-                <td>{przepis.wymaganeProdukty.join()}</td>
+                <td>{przepis.wymaganeProdukty.join(", ")}</td>
                 <td>{przepis.postedBy}</td>
                 <td>
                     <ButtonGroup>

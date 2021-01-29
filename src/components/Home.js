@@ -40,7 +40,7 @@ class Home extends Component {
         <h1 style={{padding: "10px", fontFamily: "Arial", fontSize: "50px", textAlign: "center"}}>
           Witaj!</h1>
         <h1 style={{padding: "0px", fontFamily: "Arial", fontSize: "30px" }}>
-          Wpisz swoje produkty a poniższa lista pokaże Ci jakie pyszności możesz przyrządzić. Smacznego!</h1>
+          Wpisz posiadane produkty, naciśnij enter a poniższa lista pokaże Ci jakie pyszności możesz przyrządzić. Smacznego!</h1>
         </div>
         </Container>
         
